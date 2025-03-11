@@ -1,7 +1,6 @@
 import os
 
-API_SECRET_KEY = "sk-3xFsyspt9KODQXdtBeD3Ce1a24344dB1868b440979A2703c"
-BASE_URL = "https://aihubmix.com/v1"
+from utils.macros import API_SECRET_KEY, BASE_URL
 
 os.environ["OPENAI_API_KEY"] = API_SECRET_KEY
 os.environ["OPENAI_BASE_URL"] = BASE_URL
